@@ -1,0 +1,139 @@
+# SOITCO - Servicios Profesionales de IT
+
+SOITCO es una empresa dedicada a proporcionar soluciones tecnológicas innovadoras y personalizadas para impulsar la transformación digital de las empresas. Este proyecto es una aplicación web desarrollada con Astro y TailwindCSS, que incluye una variedad de componentes y páginas para mostrar los servicios, proyectos, y más.
+
+## 🚀 Estructura del Proyecto
+
+La estructura del proyecto es la siguiente:
+
+```text
+/
+├── public/
+│   └── img/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── layouts/
+│   ├── pages/
+│   └── env.d.ts
+├── .astro/
+├── .bolt/
+├── .codesandbox/
+├── .vercel/
+├── .vscode/
+├── ProyectoIT/
+├── SOITCO/
+│   └── project/
+├── astro.config.mjs
+├── package.json
+├── tailwind.config.mjs
+└── tsconfig.json
+
+--components--
+
+AboutSection.astro: Sección que describe quiénes somos y nuestra misión.
+
+Card.astro: Componente de tarjeta para mostrar información con un enlace.
+
+Chatbot.astro: Componente de chatbot para interactuar con los usuarios.
+
+ContactForm.astro: Formulario de contacto para que los usuarios envíen mensajes.
+
+ContactInfo.astro: Información de contacto con diferentes métodos de comunicación.
+
+FAQItem.astro: Componente para mostrar preguntas frecuentes.
+
+FAQSection.astro: Sección completa de preguntas frecuentes.
+
+Footer.astro: Pie de página con información de contacto y enlaces.
+
+Map.astro: Mapa interactivo mostrando la ubicación de la empresa.
+
+Navigation.astro: Barra de navegación principal.
+
+PageHeader.astro: Encabezado de página con título y descripción.
+
+PanamaSection.astro: Sección destacando el compromiso con Panamá.
+
+PanamaStats.astro: Estadísticas sobre los proyectos y colaboradores en Panamá.
+
+PolicySection.astro: Sección para mostrar políticas de privacidad y términos de uso.
+
+PricingCard.astro: Tarjeta de precios para mostrar diferentes planes.
+
+ProjectCard.astro: Tarjeta para mostrar información de proyectos.
+
+ProjectFilter.astro: Filtro para categorizar y mostrar proyectos.
+
+RegisterForm.astro: Formulario de registro para nuevos usuarios.
+
+ServiceCard.astro: Tarjeta para mostrar servicios ofrecidos.
+
+TeamMember.astro: Componente para mostrar información de miembros del equipo.
+
+TestimonialCard.astro: Tarjeta para mostrar testimonios de clientes.
+
+TestimonialsSection.astro: Sección completa de testimonios de clientes.
+
+--data--
+
+plans.ts: Datos de los planes de suscripción disponibles.
+
+--layouts--
+
+Layout.astro: Layout principal que incluye la navegación, el pie de página y el chatbot.
+
+--pages--
+
+index.astro: Página de inicio con secciones sobre los servicios, testimonios, y más.
+
+acerca.astro: Página sobre nosotros, nuestra historia, misión, visión y equipo.
+
+contacto.astro: Página de contacto con formulario y mapa de ubicación.
+
+planes.astro: Página de planes y precios con preguntas frecuentes.
+
+planes/seleccion.astro: Página para seleccionar un plan de suscripción.
+
+planes/confirmacion.astro: Página de confirmación de suscripción.
+
+politicas.astro: Página de políticas de privacidad y términos de uso.
+
+proyectos.astro: Página de proyectos con filtro por categorías.
+
+servicios.astro: Página de servicios detallando cada uno de los servicios ofrecidos.
+
+registro.astro: Página de registro para nuevos usuarios.
+
+--comandos--
+
+  Comando	         Acción
+npm install	     Instala las dependencias
+npm run dev	     Inicia el servidor de desarrollo en localhost:4321
+npm run build	 Construye el sitio para producción en ./dist/
+npm run preview	 Previsualiza tu construcción localmente
+npm run astro	 Ejecuta comandos CLI como astro add, astro check
+npm run deploy	 Despliega el proyecto en Vercel
+
+--deploy--
+
+El proyecto está configurado para ser desplegado en Vercel. Puedes desplegarlo ejecutando el comando:
+
+npm run deploy
+
+--Documentación--
+
+Para más información, consulta la documentación de Astro y la documentación de TailwindCSS.
+
+ --Contribuciones--
+
+ Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que te gustaría hacer
+
+ --Contacto--
+
+ Para cualquier consulta, puedes contactarnos a través de nuestro formulario de contacto o enviando un email a contacto@soitco.com.
+
+ ¡Gracias por usar SOITCO!
+
+
+Este README proporciona una descripción completa de la estructura del proyecto, los componentes, las páginas, los comandos disponibles y cómo desplegar la aplicación.
