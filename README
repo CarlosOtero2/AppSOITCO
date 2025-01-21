@@ -17,8 +17,6 @@ La estructura del proyecto es la siguiente:
 │   ├── pages/
 │   └── env.d.ts
 ├── .astro/
-├── .bolt/
-├── .codesandbox/
 ├── .vercel/
 ├── .vscode/
 ├── ProyectoIT/
